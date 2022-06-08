@@ -1,0 +1,67 @@
+.App {
+    margin: 90px 0px;
+    background: aliceblue;
+    padding: 35px 0px;
+}
+.imge-vari {
+    display: flex;
+    flex-wrap: nowrap;
+}
+button {
+    border: none;
+    padding:1px;
+    width: 15%;
+}
+.imge-vari button {
+    width: 15%;
+    border: 1px solid #ededed;
+    margin-left: 5px;
+}
+.imge-vari button img {
+    width: 100%;
+}
+.size {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.gallary-details {
+    background: #d5d5d5;
+    padding: 20px;
+}
+.size button span {
+    width: 100%;
+    background: white;
+    border: 1px solid #ebebeb;
+    height: 60px;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+.gallery img{
+    width: 100%;
+}
+
+.product-title {
+    background: #ff8100;
+    padding: 20px 15px;
+}
+.product-price {
+    background: white;
+    padding: 20px 15px;
+    margin: 15px 0px;
+}
+.color-variation {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.product-size{
+    background: white;
+    padding: 15px;  
+}
